@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #090e22;
+    background-color: #94b18f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +21,14 @@ body {
 .container {
     min-width: 400px;
     min-height: 400px;
-    background-color: #1d1e33;
+    background-color: #688363;
     padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #fff;
 }
 
 /* IMC Form */
@@ -47,11 +53,14 @@ body {
 .form-control label {
     font-weight: bold;
     margin-bottom: 0.6rem;
-    color: #ccc;
+    color: #fff;
 }
 
 .form-control input {
     padding: 1rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
 }
 
 .action-control {
@@ -64,19 +73,28 @@ body {
 button {
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: #f44236;
+    background-color: #3b5537;
     border: none;
     color: #fff;
     cursor: pointer;
+    border-radius: 5px;
     opacity: 0.9;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     opacity: 1;
+    background-color: #94b18f;
 }
 
 #clear-btn {
-    background-color: #444;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+clear-btn:hover {
+    background-color: #e1e1e1;
 }
 
 /* Table */
@@ -143,7 +161,7 @@ button:hover {
 }
 
 .medium {
-    color: #db6212;
+    color: #ec9f6d;
 }
 
 .high {
